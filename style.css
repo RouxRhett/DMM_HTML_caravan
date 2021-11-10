@@ -225,3 +225,31 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+  header, body, main, .main-visual-content, .blog, .sidebar, footer {
+    width: 100%;
+  }
+
+  main {
+    flex-direction: column;
+    padding: 70px 10px;
+  }
+
+  .sidebar {
+    padding: 50px 0;
+  }
+
+  .blog-image {
+    width: 49%;
+  }
+
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
+}
